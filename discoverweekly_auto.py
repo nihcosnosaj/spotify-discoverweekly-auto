@@ -6,6 +6,8 @@ browsing through later.
 Required Environment variables:
 CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, DISCOVER_WEEKLY_ID
 
+Dependencies: spotipy, dotenv
+
 """
 
 from datetime import date 
@@ -60,7 +62,7 @@ def get_tracks():
     discover_weekly_items = sp.playlist_items(DISCOVER_WEEKLY_ID)
     json_formatted_str = json.dumps(discover_weekly_items, indent=2)
     resp_dict = json.loads(json_formatted_str)
-    
+
     for x in resp_dict['items']:
         tracks_to_add.append(x['track']['id'])
 
