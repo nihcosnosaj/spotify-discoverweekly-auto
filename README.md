@@ -3,7 +3,7 @@ A Python script to automatically add your "Discover Weekly" playlist to an archi
 
 Requirements
   - spotipy
-  - python-dotenv
+  - dotenv
   
 # Overview
 If you are a frequent user of Spotify, you surely know about the "Discover Weekly" playlist that Spotify updates
