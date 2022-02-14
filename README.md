@@ -15,7 +15,7 @@ as another playlist of yours, labeled with the date, so that you never miss out 
   - Python 3.9
 
 # Set Up
-You will need to create an Application in you Dashboard on the Spotify for Developers website, https://developer.spotify.com/dashboard/login, under your Spotify account. Once the application is created, a Redirect URI must be given to the Application in the Edit Settings area of the Application dashboard. The URI doesn't have to be an actual viable website, http://localhost:8888 should be just fine for at-home personal use. 
+You will need to create an Application in your Dashboard on the Spotify for Developers website, https://developer.spotify.com/dashboard/login, under your Spotify account. Once the application is created, a Redirect URI must be given to the Application in the Edit Settings area of the Application dashboard. The URI doesn't have to be an actual viable website, http://localhost:8888 should be just fine for at-home personal use. 
 
 After that, you will need to create a .env file in the directory with discoverweekly_auto.py for your environment variables. You will need the following environment variables:
   - client_id='<the client ID from your application>'
